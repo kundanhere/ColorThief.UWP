@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="GetDominantColor.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GetDominantColor"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <Border x:Name="Rect"
+                    Width="100"
+                    Height="100" />
+                <TextBlock x:Name="fileName" Margin="12" />
+            </StackPanel>
+
+            <Button Grid.Row="1" x:Name="filePickerBtn"
+                    HorizontalAlignment="Center"
+                    Content="Select an image"
+                    Style="{ThemeResource ButtonRevealStyle}"
+                    Margin="0,22,0,0"
+                    Padding="22,8"
+                    Click="SelectImage" />
+        </Grid>
+    </Grid>
+</Page>
