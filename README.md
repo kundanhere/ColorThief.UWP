@@ -12,7 +12,6 @@ https://www.nuget.org/packages/ksemenenko.ColorThief/
 ### Platforms:
 |Platform|Supported|Version|
 | ------------------- | :-----------: | :------------------: |
-
 |Windows 10 UWP|Yes|10+|
 |Windows Phone 8|No|8.0+|
 |Windows Phone 8.1|No|8.1+|
