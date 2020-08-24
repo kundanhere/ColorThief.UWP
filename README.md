@@ -1,4 +1,4 @@
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kundan2001/ColorThief.UWP?color=brightgreen&include_prereleases)](https://github.com/kundan2001/SoftdocMusic/releases/latest)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kundan2001/ColorThief.UWP?color=brightgreen&include_prereleases)](https://github.com/kundan2001/ColorThief.UWP/releases/latest)
 ![GitHub](https://img.shields.io/github/license/kundan2001/ColorThief.UWP?label=license)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kundan2001/ColorThief.UWP)
 
