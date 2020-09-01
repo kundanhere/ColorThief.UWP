@@ -8,12 +8,12 @@ A code for grabbing the dominant color from an image. Uses [ColorThief](https://
 
 ## Compatibility:
 
-| Operating System |     Architecture     | Supported | 
-| :--------------- | :------------------: | :-------: | 
-| Windows 10       | x86, x64, ARM, ARM64 |    Yes    | 
-| Windows 8.1      |       x86, x64       |    No     |       
-| Windows 8        |       x86, x64       |    No     |               
-| Windows 7        |       x86, x64       |    No     |                
+| Operating System |     Architecture     | Supported |        Version |
+| :--------------- | :------------------: | :-------: | -------------: |
+| Windows 10       | x86, x64, ARM, ARM64 |    Yes    |16299 or higher |
+| Windows 8.1      |       x86, x64       |    No     |                |
+| Windows 8        |       x86, x64       |    No     |                |
+| Windows 7        |       x86, x64       |    No     |                |               
 
 ## How to use ColorThief
 
@@ -37,21 +37,26 @@ For Xamarin.Forms
 ```cs
 await CrossColorThief.Current.GetPalette(sourceImage);
 ```
+## How to build and run the program
 
-## Build
+### Build
 
 1. Start Microsoft Visual Studio and select **File > Open > Project/Solution**.
 2. Go to the folder where you unzipped the sample. Double-click the Visual Studio Solution (.sln) file.
 3. Press Ctrl+Shift+B, or select **Build > Build Solution**.
 
-## Run
+### Run
 
 After opening the Visual Studio solution, set the architecture to x64 or x86. The next steps depend on whether you just want to deploy the sample or you want to both deploy and run it.
 
-### Deploy
+#### Deploy
 
 Select **Build > Deploy Solution**.
 
-### Deploy and run
+#### Deploy and run
 
 To debug the sample and then run it, press F5 or select **Debug > Start Debugging**. To run the sample without debugging, press Ctrl+F5 or select **Debug > Start Without Debugging**.
+
+## License 
+
+ColorThief.UWP is a MIT-style licensed, as found in the [LICENSE](https://github.com/kundanhere/ColorThief.UWP/blob/master/LICENSE) file.
