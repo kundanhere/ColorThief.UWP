@@ -1,5 +1,5 @@
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/kundan2001/ColorThief.UWP?color=brightgreen&include_prereleases)](https://github.com/kundan2001/ColorThief.UWP/releases/latest)
-![GitHub](https://img.shields.io/github/license/kundan2001/ColorThief.UWP?label=license)
+[![GitHub](https://img.shields.io/github/license/kundan2001/ColorThief.UWP?label=license)](https://github.com/kundanhere/ColorThief.UWP/blob/master/LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/kundan2001/ColorThief.UWP)
 
 # Get Dominant Color
@@ -49,13 +49,14 @@ await CrossColorThief.Current.GetPalette(sourceImage);
 
 After opening the Visual Studio solution, set the architecture to x64 or x86. The next steps depend on whether you just want to deploy the sample or you want to both deploy and run it.
 
-#### Deploy
+1. Deploy
 
-Select **Build > Deploy Solution**.
+    - Select **Build > Deploy Solution**.
 
-#### Deploy and run
+2. Deploy and run
 
-To debug the sample and then run it, press F5 or select **Debug > Start Debugging**. To run the sample without debugging, press Ctrl+F5 or select **Debug > Start Without Debugging**.
+    - To debug the sample and then run it, press F5 or select **Debug > Start Debugging**. 
+    - To run the sample without debugging, press Ctrl+F5 or select **Debug > Start Without Debugging**.
 
 ## License 
 
